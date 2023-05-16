@@ -12,9 +12,6 @@ export default function HeroBanner({ heroBanner }) {
         <img src={urlFor(heroBanner.image)} alt="shoes" className="hero-banner-image" />
 
         <div>
-          {/* <Link href={`/product/${heroBanner.product}`}>
-            <button type="button">{heroBanner.buttonText}</button>
-          </Link> */}
           <div className="desc hideOnMobile">
             <h5>{heroBanner.desc}</h5>
           </div>
